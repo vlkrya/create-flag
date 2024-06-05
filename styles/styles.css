@@ -1,0 +1,148 @@
+.page {
+    max-width: 1280px;
+    margin: 0 auto;
+    font-family: Inter;
+    font-weight: 400;
+}
+
+.container { 
+    padding-left: 34px;
+    padding-right: 34px;
+}
+
+.container_secondary {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.header { 
+    margin-block-end: 28px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+}
+
+.cover {
+    padding-top: 42px;
+    padding-bottom: 160px;
+    background-image: url(../images/cover-image.png);
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+}
+
+.cover__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 110px;
+    line-height: 110px;
+    letter-spacing: -0.04em;
+    color: #202020;
+    max-width: 380px;
+    margin: 0 0 90px;
+}
+
+.cover__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 25px;
+    letter-spacing: -0.04em;
+    color: #ACACAC;
+    max-width: 250px;
+    margin: 0;
+}
+
+.link {
+    color: #5076FF;
+}
+
+.cards { 
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.card { 
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 50px 46px 46px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card__image {
+    margin-bottom: 40px;
+}
+
+.card__title { 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #202020;
+}
+
+.card__text { 
+    width: 168px;
+    height: 51px;
+    left: 416px;
+    top: 1175px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: center;
+    color: #202020;
+}
+
+.features { 
+    padding: 90px;
+    background-color: #202020;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.features__title { 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center; 
+    letter-spacing: -0.03em;
+    color: #ffffff;
+    margin: 0 0 60px;
+}
+
+.footer {
+    background-color: #202020;
+    padding-top: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.footer__text {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 48px;
+    text-align: center; 
+    letter-spacing: -0.03em;
+    color: #ffffff;
+
+
+}
+
+.link {
+    color: #5076FF;
+}
